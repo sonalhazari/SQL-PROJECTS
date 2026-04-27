@@ -65,8 +65,8 @@ The dataset consists of 3 tables:
 
 ## 📸 Project Screenshots
 
-(Add screenshots here — see below section)
-
+ 📸 Top Customers by Revenue
+![Top Customers](https://github.com/user-attachments/assets/7a224032-ec6a-4188-ab80-2a3fe69ed693)
 ---
 
 ## 📈 Business Recommendations
