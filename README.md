@@ -75,7 +75,8 @@ The dataset consists of 3 tables:
 ![City_Sales](https://github.com/user-attachments/assets/504fdc30-3dc5-4007-b332-a709c8f49df2)
 
 ### Loyalty Segmentation
-![City_Sales]
+![City_Sales](https://github.com/user-attachments/assets/cdfe4186-794d-4c57-8d55-cf5d54e397da)
+
 ---
 
 ## 📈 Business Recommendations
