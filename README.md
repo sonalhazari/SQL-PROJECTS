@@ -28,5 +28,12 @@ and generate actionable business insights for revenue growth.
 - Home category is the best selling product category
 - Strong customer base with opportunity to acquire new customers
 
+## Final Business Recommendations
+
+- Focus on High Value Loyal customers for retention
+- Target inactive users with discounts
+- Expand in top-performing cities
+- Upsell medium spenders to increase revenue
+
 ## Files
 - ecommerce_customer_analysis.sql — complete SQL project with queries and insights
