@@ -1,39 +1,95 @@
-# E-commerce Customer Segmentation Analysis
+# 🛒 Customer Behavior & Sales Analysis (SQL Project)
 
-## Project Goal
-Analyze customer purchasing behavior, identify high-value customers, 
-and generate actionable business insights for revenue growth.
+## 📌 Project Overview
 
-## Tools Used
-- MySQL (MySQL Workbench)
+This project analyzes customer purchasing behavior using SQL.
+The goal is to identify high-value customers, understand sales trends, and generate actionable business insights to improve revenue and retention.
 
-## Skills Demonstrated
-- SQL Joins (INNER, LEFT)
-- Aggregate Functions (SUM, COUNT, AVG)
-- CASE WHEN Segmentation
-- COALESCE & NULLIF for data quality
-- Business Insight Generation
+---
 
-## What This Project Covers
-- Customer spending segmentation (High/Medium/Low Spender)
-- Frequency segmentation (Loyal/Returning/New/Inactive)
-- City wise revenue analysis
-- Product category performance
-- Multi-dimensional customer loyalty analysis
+## 📊 Dataset Description
 
-## Key Findings
-- 60% of customers are High Spenders
-- 85% of customers are Loyal (3+ orders)
-- SOUTH city generates highest revenue (~31.78%)
-- Home category is the best selling product category
-- Strong customer base with opportunity to acquire new customers
+The dataset consists of 3 tables:
 
-## Final Business Recommendations
+* **customers** → customer details (name, city)
+* **orders** → order transactions (quantity, product_id)
+* **products** → product details (price, category)
 
-- Focus on High Value Loyal customers for retention
-- Target inactive users with discounts
-- Expand in top-performing cities
-- Upsell medium spenders to increase revenue
+---
 
-## Files
-- ecommerce_customer_analysis.sql — complete SQL project with queries and insights
+## 🧠 Key Business Questions
+
+* Who are the top revenue-generating customers?
+* Which customers are inactive or at risk?
+* Which city generates the most sales?
+* What are the best-selling products and categories?
+* How can customers be segmented based on value and frequency?
+
+---
+
+## ⚙️ SQL Techniques Used
+
+* JOIN (LEFT JOIN)
+* GROUP BY & Aggregations
+* CASE WHEN (Customer Segmentation)
+* ORDER BY & LIMIT
+* Handling NULL values
+
+---
+
+## 📈 Key Insights
+
+* 🔹 A small group of customers contributes the majority of revenue.
+* 🔹 Several customers have no orders → potential for re-engagement campaigns.
+* 🔹 High-value customers should be prioritized for retention strategies.
+* 🔹 Revenue is concentrated in specific cities and product categories.
+* 🔹 Customer segmentation reveals opportunities for upselling and loyalty programs.
+
+---
+
+## 📊 Sample Analysis
+
+### 🔹 Customer Segmentation
+
+* High Spender
+* Medium Spender
+* Low Spender
+
+### 🔹 Loyalty Segmentation
+
+* High Value & Loyal
+* High Value but Infrequent
+* Regular Customers
+
+---
+
+## 📸 Project Screenshots
+
+(Add screenshots here — see below section)
+
+---
+
+## 📈 Business Recommendations
+
+1. 🎯 Focus on retaining high-value loyal customers
+2. 📢 Run marketing campaigns for inactive users
+3. 🌍 Expand strategies in top-performing cities
+4. 💰 Upsell medium-value customers to increase revenue
+
+---
+
+## 🛠 Tools Used
+
+* MySQL
+* MySQL Workbench
+* GitHub
+
+---
+
+## 🚀 Future Improvements
+
+* Add Power BI / Excel dashboard
+* Perform cohort and retention analysis
+* Automate reporting
+
+---
