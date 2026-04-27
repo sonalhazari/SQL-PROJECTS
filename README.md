@@ -65,8 +65,17 @@ The dataset consists of 3 tables:
 
 ## 📸 Project Screenshots
 
-📸 Top Customers by Revenue
+### Top Customers by Revenue
 ![Top Customers](https://github.com/user-attachments/assets/7a224032-ec6a-4188-ab80-2a3fe69ed693)
+
+### Customer Segmentation
+![Segmentation](https://github.com/user-attachments/assets/26b7b7aa-f8b4-4b83-925d-e8bf90e1e2dc)
+
+### City-wise Sales
+![City_Sales](https://github.com/user-attachments/assets/504fdc30-3dc5-4007-b332-a709c8f49df2)
+
+### Loyalty Segmentation
+![City_Sales]
 ---
 
 ## 📈 Business Recommendations
