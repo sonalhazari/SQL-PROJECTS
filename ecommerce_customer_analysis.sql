@@ -1,7 +1,9 @@
+                    #PROJECT
 # PROJECT GOAL:
-# Analyze customer purchasing behavior, identify high-value customers, and generate actionable business insights for revenue growth.
-			
-#STEP 1: Data Understanding + Basic Analysis
+# Analyze customer purchasing behavior, identify high-value customers,
+# and generate actionable business insights for revenue growth.
+			#STEP 1: Data Understanding + Basic Analysis
+#combining tables + adding new row
 SELECT 
 	c.name, 
     p.product_name, 
@@ -21,7 +23,8 @@ FROM customers c
 LEFT JOIN orders o
 ON c.customer_id=o.customer_id
 GROUP BY c.name;
-#Total sales per customer/customers ranked by sales(leaderboard)(full ranked list -> for reporting)
+#Total sales per customer/customers ranked by sales(leaderboard)
+#(full ranked list -> for reporting)
 SELECT
 	c.name,
 COALESCE(SUM(o.quantity * p.price), 0) AS total_sales
@@ -93,8 +96,10 @@ ON c.customer_id=o.customer_id
 LEFT JOIN products p 
 ON o.product_id=p.product_id 
 GROUP BY c.name;
-#INSIGHT: 8 out of 20 customers (40%) fall into Low/Medium spending segments -> significant scope to increase revenue through upselling and targeted campaigns. 
-#60% are already High Spenders indicating a strong customer base — focus on retaining them with loyalty programs.
+#INSIGHT: 8 out of 20 customers (40%) fall into Low/Medium spending 
+#segments -> significant scope to increase revenue through upselling 
+#and targeted campaigns. 60% are already High Spenders indicating 
+#a strong customer base — focus on retaining them with loyalty programs.
 
 #Task 2- Frequency Segmentation
 SELECT 
@@ -111,8 +116,8 @@ FROM customers c
 LEFT JOIN orders o
 ON c.customer_id=o.customer_id
 GROUP BY c.name;
-# INSIGHT: 17 out of 20 customers (85%) are Loyal -> exceptionally strong retention rate. Only 1 New customer (5%) and 2 Returning (10%) suggest the existing base is
-#highly engaged. 
+# INSIGHT: 17 out of 20 customers (85%) are Loyal -> exceptionally strong retention rate. Only 1 New customer (5%) and 2 Returning (10%)
+#suggest the existing base is highly engaged. 
 #Focus should be on acquiring new customers rather than retention, as current customer loyalty is already very strong.
 
 #Task 3 — City wise total sales-Which city generates most revenue?
@@ -159,8 +164,7 @@ ON o.product_id = p.product_id
 GROUP BY p.category
 ORDER BY total_sales DESC;
 # INSIGHT: Revenue is concentrated in specific categories -> focusing on these can maximize ROI and profitability.
-
-#Task 7 - Quantity Segmentation
+#task 7 - Quantity Segmentation
 SELECT 
     c.name,
 	COALESCE(SUM(o.quantity), 0) AS total_quantity,    
@@ -195,6 +199,45 @@ GROUP BY c.name;
 # INSIGHT: High Value & Loyal -> Reward them — loyalty program, exclusive offers. 
 #High Value but Infrequent -> Re-engage them — why aren't they coming back? Special discount to bring them back.
 #Regular -> Nurture them — upsell campaigns to move them up.
+
+# KPI QUERIES
+
+# Total Revenue
+SELECT 
+    SUM(o.quantity * p.price) AS total_revenue
+FROM orders o
+LEFT JOIN products p
+ON o.product_id = p.product_id;
+
+# Total Orders
+SELECT 
+    COUNT(order_id) AS total_orders
+FROM orders;
+
+# Total Customers
+SELECT 
+    COUNT(customer_id) AS total_customers
+FROM customers;
+
+# Avg Order Value
+SELECT 
+    SUM(o.quantity * p.price) / COUNT(o.order_id) AS avg_order_value
+FROM orders o
+LEFT JOIN products p
+ON o.product_id = p.product_id;
+
+#Top Customer Revenue
+SELECT
+    c.name,
+    SUM(o.quantity * p.price) AS total_sales
+FROM customers c 
+LEFT JOIN orders o
+ON c.customer_id=o.customer_id
+LEFT JOIN products p
+ON o.product_id=p.product_id
+GROUP BY c.name
+ORDER BY total_sales DESC
+LIMIT 1;
 
 
 # FINAL BUSINESS SUMMARY:
