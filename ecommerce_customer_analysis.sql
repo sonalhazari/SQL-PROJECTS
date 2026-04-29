@@ -1,5 +1,4 @@
-                    #PROJECT
-# PROJECT GOAL:
+					# PROJECT GOAL:
 # Analyze customer purchasing behavior, identify high-value customers,
 # and generate actionable business insights for revenue growth.
 			#STEP 1: Data Understanding + Basic Analysis
