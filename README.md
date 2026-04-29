@@ -79,7 +79,7 @@ The dataset consists of 3 tables:
 
 ---
 
-### Key Metrics (KPIs)
+### 📈 Key Metrics (KPIs)
 - Total Revenue: ₹ 3,35,100
 - Total Orders: 100
 - Total Customers: 20
