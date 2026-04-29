@@ -79,6 +79,15 @@ The dataset consists of 3 tables:
 
 ---
 
+### Key Metrics (KPIs)
+- Total Revenue: ₹ 3,35,100
+- Total Orders: 100
+- Total Customers: 20
+- Average Order Value: ₹ 3,351
+- Top Customer Revenue: ₹ 36,000
+
+---
+
 ## 📈 Business Recommendations
 
 1. 🎯 Focus on retaining high-value loyal customers
