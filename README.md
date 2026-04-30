@@ -1,9 +1,18 @@
-# 🛒 Customer Behavior & Sales Analysis (SQL Project)
+# 🛒 Customer Sales Analysis (SQL Project)
 
 ## 📌 Project Overview
 
 This project analyzes customer purchasing behavior using SQL.
 The goal is to identify high-value customers, understand sales trends, and generate actionable business insights to improve revenue and retention.
+
+---
+
+## 🎯 Project Objectives
+- Analyze total sales and order patterns
+- Identify top customers and revenue drivers
+- Segment customers based on spending and frequency
+- Find city-wise and product-wise performance
+- Generate business insights for decision-making
 
 ---
 
@@ -17,49 +26,78 @@ The dataset consists of 3 tables:
 
 ---
 
-## 🧠 Key Business Questions
-
-* Who are the top revenue-generating customers?
-* Which customers are inactive or at risk?
-* Which city generates the most sales?
-* What are the best-selling products and categories?
-* How can customers be segmented based on value and frequency?
+## 🛠️ Tools & Technologies
+- SQL (MySQL)
+- MySQL Workbench
+- Excel (for visualization)
+- GitHub (project showcase)
 
 ---
 
-## ⚙️ SQL Techniques Used
-
-* JOIN (LEFT JOIN)
-* GROUP BY & Aggregations
-* CASE WHEN (Customer Segmentation)
-* ORDER BY & LIMIT
-* Handling NULL values
-
----
-
-## 📈 Key Insights
-
-* 🔹 A small group of customers contributes the majority of revenue.
-* 🔹 Several customers have no orders → potential for re-engagement campaigns.
-* 🔹 High-value customers should be prioritized for retention strategies.
-* 🔹 Revenue is concentrated in specific cities and product categories.
-* 🔹 Customer segmentation reveals opportunities for upselling and loyalty programs.
+## 🧠 Key SQL Concepts Used
+- JOINs (LEFT JOIN)
+- Aggregations (SUM, COUNT)
+- GROUP BY & ORDER BY
+- CASE WHEN (Segmentation)
+- COALESCE
+- Data Analysis Queries
 
 ---
 
-## 📊 Sample Analysis
+## 📊 Key Business Questions Solved
 
-### 🔹 Customer Segmentation
+1. Who are the top customers by revenue?
+2. Which cities generate the highest sales?
+3. Which product/category is most popular?
+4. How to segment customers based on spending?
+5. How to identify loyal vs inactive customers?
 
-* High Spender
-* Medium Spender
-* Low Spender
+---
 
-### 🔹 Loyalty Segmentation
+## 📈 Dashboard
 
-* High Value & Loyal
-* High Value but Infrequent
-* Regular Customers
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## 📍 Revenue by City
+
+![Revenue by City](screenshots/revenue_by_city.png)
+
+### 💡 Insights:
+- SOUTH is the highest revenue-generating city (~31.78%)
+- EAST has the lowest sales → needs improvement
+- Significant gap across cities → uneven market reach
+
+---
+
+## 👥 Customer Segmentation
+
+![Customer Segmentation](screenshots/customer_segmentation.png)
+
+### 💡 Insights:
+- Majority customers fall in Low/Medium segment
+- Indicates strong potential for upselling
+- High-value customers should be retained carefully
+
+---
+
+## ⭐ Top Customers
+
+![Top Customers](screenshots/top_customers.png)
+
+### 💡 Insights:
+- A small group of customers drives major revenue
+- These customers should be treated as VIP segment
+- Personalized offers can increase retention
+
+---
+
+## 🚀 Key Learnings
+- Improved SQL query writing and optimization
+- Learned how to convert raw data into business insights
+- Understood customer segmentation techniques
+- Built a complete end-to-end data analysis project
 
 ---
 
@@ -88,21 +126,14 @@ The dataset consists of 3 tables:
 
 ---
 
-## 📈 Business Recommendations
-
-1. 🎯 Focus on retaining high-value loyal customers
-2. 📢 Run marketing campaigns for inactive users
-3. 🌍 Expand strategies in top-performing cities
-4. 💰 Upsell medium-value customers to increase revenue
-
----
-
-## 🛠 Tools Used
-
-* MySQL
-* MySQL Workbench
-* GitHub
-
+## 📌 Final Business Summary
+- Revenue is driven by a small group of high-value customers
+- Customer retention is a key growth opportunity
+- Certain cities and product categories dominate sales
+- Business should focus on:
+  - Retaining high-value customers
+  - Improving low-performing regions
+  - Increasing repeat purchases
 ---
 
 ## 🚀 Future Improvements
