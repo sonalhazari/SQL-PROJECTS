@@ -63,8 +63,8 @@ These tables were joined using foreign keys to perform revenue and segmentation 
 
 ![Customer Sales Dashboard - Overview](dashboard1.png)
 ![Customer Sales Dashboard - Charts](dashboard2.png)
----
 
+---
 
 ### 💡 Key Insights from Analysis
 📌 Business KPIs
@@ -74,11 +74,15 @@ These tables were joined using foreign keys to perform revenue and segmentation 
 - Average Order Value: ₹ 3,351
 - Top Customer Revenue: ₹ 36,000
 
+---
+
+### 📌 Revenue Insights
 - SOUTH is the highest revenue-generating city (~31.78% contribution)
 - Revenue is heavily concentrated in the Home product category
 - Top 5 customers contribute a significant portion of total revenue
 - 60% of customers belong to the High Spender segment, indicating strong revenue concentration among premium buyers, retention and loyalty strategies should         prioritize this segment
 - High Value & Loyal customers represent the most strategic segment for retention and relationship management
+
 ---
 
 ## 📌 Final Business Summary
