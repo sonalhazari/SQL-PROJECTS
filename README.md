@@ -2,55 +2,60 @@
 
 ## 📌 Project Overview
 
-This project analyzes customer purchasing behavior using SQL.
-The goal is to identify high-value customers, understand sales trends, and generate actionable business insights to improve revenue and retention.
+This project analyzes customer purchasing behavior using SQL to uncover revenue patterns, customer segments, and growth opportunities.
+
+The objective is to identify high-value customers, evaluate sales performance across cities and product categories, and generate actionable business insights to support strategic decision-making.
 
 ---
 
 ## 🎯 Project Objectives
-- Analyze total sales and order patterns
-- Identify top customers and revenue drivers
-- Segment customers based on spending and frequency
-- Find city-wise and product-wise performance
-- Generate business insights for decision-making
+
+- Analyze total revenue and order behavior
+- Identify top-performing customers
+- Segment customers based on spending and purchase frequency
+- Evaluate city-wise and category-wise sales performance
+- Generate data-driven insights for business growth
 
 ---
 
 ## 📊 Dataset Description
 
-The dataset consists of 3 tables:
+The dataset consists of three relational tables:
 
-* **customers** → customer details (name, city)
-* **orders** → order transactions (quantity, product_id)
-* **products** → product details (price, category)
+*customers* -> Customer information (name, city)
+*orders* -> Transaction details (order_id, quantity, product_id)
+*products* -> Product details (price, category)
+
+These tables were joined using foreign keys to perform revenue and segmentation analysis.
 
 ---
 
 ## 🛠️ Tools & Technologies
 - SQL (MySQL)
 - MySQL Workbench
-- Excel (for visualization)
-- GitHub (project showcase)
+- Microsoft Excel (Dashboard & Visualizations)
+- GitHub (Project Documentation & Portfolio Showcase)
 
 ---
 
 ## 🧠 Key SQL Concepts Used
-- JOINs (LEFT JOIN)
-- Aggregations (SUM, COUNT)
+- LEFT JOIN (Data Combination)
+- Aggregation Functions (SUM, COUNT)
 - GROUP BY & ORDER BY
-- CASE WHEN (Segmentation)
-- COALESCE
-- Data Analysis Queries
+- CASE WHEN (Customer Segmentation)
+- COALESCE (Handling NULL values)
+- Subqueries
+- Business KPI Calculations
 
 ---
 
 ## 📊 Key Business Questions Solved
 
 1. Who are the top customers by revenue?
-2. Which cities generate the highest sales?
-3. Which product/category is most popular?
-4. How to segment customers based on spending?
-5. How to identify loyal vs inactive customers?
+2. Which city generates the highest sales?
+3. Which product category drives maximum revenue?
+4. How are customers segmented by spending behavior?
+5. How to identify loyal, active and inactive customers?
 
 ---
 
@@ -61,35 +66,34 @@ The dataset consists of 3 tables:
 ---
 
 
-### 💡 Key Insights from Dashboard
+### 💡 Key Insights from Analysis
+📌 Business KPIs
 - Total Revenue: ₹ 3,35,100
 - Total Orders: 100
 - Total Customers: 20
 - Average Order Value: ₹ 3,351
 - Top Customer Revenue: ₹ 36,000
 
-
-- SOUTH is the highest revenue-generating city (~31.78%)
-- Revenue is heavily concentrated in the Home category
-- Top 5 customers contribute a significant portion of revenue
+- SOUTH is the highest revenue-generating city (~31.78% contribution)
+- Revenue is heavily concentrated in the Home product category
+- Top 5 customers contribute a significant portion of total revenue
 - 60% of customers belong to the High Spender segment, indicating strong revenue concentration among premium buyers, retention and loyalty strategies should         prioritize this segment
-- High Value & Loyal customers should be prioritized for retention
+- High Value & Loyal customers represent the most strategic segment for retention and relationship management
 ---
 
 ## 📌 Final Business Summary
-- Revenue is driven by a small group of high-value customers
-- Customer retention is a key growth opportunity
-- Certain cities and product categories dominate sales
+- Revenue is strongly driven by high-spending customers
+- Customer retention strategies are critical for sustaining growth.
+- Sales performance varies significantly across cities, indicating uneven market penetration
 - Business should focus on:
   - Retaining high-value customers
-  - Improving low-performing regions
-  - Increasing repeat purchases
+  - Strengthening low-performing regions
+  - Increasing repeat purchases and customer lifetime value
 ---
 
 ## 🚀 Future Improvements
 
-* Add Power BI / Excel dashboard
-* Perform cohort and retention analysis
-* Automate reporting
-
+* Add Power BI dashboard for interactive visualization
+* Perform cohort analysis
+* Automate reporting with scheduled queries
 ---
