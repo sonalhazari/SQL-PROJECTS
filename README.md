@@ -61,8 +61,8 @@ These tables were joined using foreign keys to perform revenue and segmentation 
 
 ## 📈 Dashboard
 
-![Customer Sales Dashboard - Overview](dashboard1.png)
-![Customer Sales Dashboard - Charts](dashboard2.png)
+![Customer Sales Dashboard - Overview](dashboard.png)
+![Customer Sales Dashboard - Charts](dashboard.png)
 
 ---
 
