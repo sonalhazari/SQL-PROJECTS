@@ -69,6 +69,7 @@ The dataset consists of 3 tables:
 - Average Order Value: ₹ 3,351
 - Top Customer Revenue: ₹ 36,000
 
+
 - SOUTH is the highest revenue-generating city (~31.78%)
 - Revenue is heavily concentrated in the Home category
 - Top 5 customers contribute a significant portion of revenue
