@@ -56,9 +56,8 @@ The dataset consists of 3 tables:
 
 ## 📈 Dashboard
 
-![Dashboard](dashboard1.png)
-![Dashboard](dashboard2.png)
-
+![Customer Sales Dashboard - Overview](dashboard1.png)
+![Customer Sales Dashboard - Charts](dashboard2.png)
 ---
 
 
