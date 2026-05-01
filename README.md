@@ -54,21 +54,6 @@ The dataset consists of 3 tables:
 
 ---
 
-## 📸 Project Screenshots
-
-### Top Customers by Revenue
-![Top Customers](https://github.com/user-attachments/assets/7a224032-ec6a-4188-ab80-2a3fe69ed693)
-
-### Customer Segmentation
-![Segmentation](https://github.com/user-attachments/assets/26b7b7aa-f8b4-4b83-925d-e8bf90e1e2dc)
-
-### City-wise Sales
-![City_Sales](https://github.com/user-attachments/assets/504fdc30-3dc5-4007-b332-a709c8f49df2)
-
-### Loyalty Segmentation
-![City_Sales](https://github.com/user-attachments/assets/cdfe4186-794d-4c57-8d55-cf5d54e397da)
-
-
 ## 📈 Dashboard
 
 ![Dashboard](dashboard1.png)
@@ -76,54 +61,19 @@ The dataset consists of 3 tables:
 
 ---
 
-## 📍 Revenue by City
 
-![Revenue by City](screenshots/revenue_by_city.png)
-
-### 💡 Insights:
-- SOUTH is the highest revenue-generating city (~31.78%)
-- EAST has the lowest sales → needs improvement
-- Significant gap across cities → uneven market reach
-
----
-
-## 👥 Customer Segmentation
-
-![Customer Segmentation](screenshots/customer_segmentation.png)
-
-### 💡 Insights:
-- Majority customers fall in Low/Medium segment
-- Indicates strong potential for upselling
-- High-value customers should be retained carefully
-
----
-
-## ⭐ Top Customers
-
-![Top Customers](screenshots/top_customers.png)
-
-### 💡 Insights:
-- A small group of customers drives major revenue
-- These customers should be treated as VIP segment
-- Personalized offers can increase retention
-
----
-
-## 🚀 Key Learnings
-- Improved SQL query writing and optimization
-- Learned how to convert raw data into business insights
-- Understood customer segmentation techniques
-- Built a complete end-to-end data analysis project
-
----
-
-### 📈 Key Metrics (KPIs)
+### 💡 Key Insights from Dashboard
 - Total Revenue: ₹ 3,35,100
 - Total Orders: 100
 - Total Customers: 20
 - Average Order Value: ₹ 3,351
 - Top Customer Revenue: ₹ 36,000
 
+- SOUTH is the highest revenue-generating city (~31.78%)
+- Revenue is heavily concentrated in the Home category
+- Top 5 customers contribute a significant portion of revenue
+- 60% of customers belong to the High Spender segment, indicating strong revenue concentration among premium buyers, retention and loyalty strategies should         prioritize this segment
+- High Value & Loyal customers should be prioritized for retention
 ---
 
 ## 📌 Final Business Summary
