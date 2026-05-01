@@ -1,3 +1,7 @@
+# SQL + Excel Customer Sales Dashboard
+
+This project analyzes customer sales data using SQL and presents insights through an interactive Excel dashboard.
+
 # 🛒 Customer Sales Analysis (SQL Project)
 
 ## 📌 Project Overview
