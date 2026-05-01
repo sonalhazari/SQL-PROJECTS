@@ -6,8 +6,6 @@ This project analyzes customer sales data using SQL and presents insights throug
 
 ## 🛒 Project Overview
 
-This project analyzes customer purchasing behavior using SQL to uncover revenue patterns, customer segments, and growth opportunities.
-
 The objective is to identify high-value customers, evaluate sales performance across cities and product categories, and generate actionable business insights to support strategic decision-making.
 
 ---
