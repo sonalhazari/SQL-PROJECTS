@@ -1,4 +1,4 @@
-# SQL + Excel Customer Sales Dashboard
+#  📊 SQL + Excel Customer Sales Dashboard
 
 This project analyzes customer sales data using SQL and presents insights through an interactive Excel dashboard.
 
