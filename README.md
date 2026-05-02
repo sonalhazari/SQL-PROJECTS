@@ -1,104 +1,100 @@
 # 📊 SQL + Excel Customer Sales Dashboard
 
-This project analyzes customer sales data using SQL and presents insights through an interactive Excel dashboard.
+This project analyzes customer purchasing behavior using SQL and presents insights through an interactive Excel dashboard.
 
 ---
 
-## 🛒 Project Overview
+## 🎯 Business Problem
 
-The objective is to identify high-value customers, evaluate sales performance across cities and product categories, and generate actionable business insights to support strategic decision-making.
+Businesses often struggle to identify:
+- High-value customers
+- Revenue-driving cities and products
+- Customer retention opportunities
 
----
-
-## 🎯 Project Objectives
-
-- Analyze total revenue and order behavior
-- Identify top-performing customers
-- Segment customers based on spending and purchase frequency
-- Evaluate city-wise and category-wise sales performance
-- Generate data-driven insights for business growth
+This project solves these problems using data analysis.
 
 ---
 
-## 📊 Dataset Description
-
-The dataset consists of three relational tables:
-
-*customers* -> Customer information (name, city)
-*orders* -> Transaction details (order_id, quantity, product_id)
-*products* -> Product details (price, category)
-
-These tables were joined using foreign keys to perform revenue and segmentation analysis.
-
----
-
-## 🛠️ Tools & Technologies
+## 🛠️ Tools Used
 - SQL (MySQL)
 - MySQL Workbench
-- Microsoft Excel (Dashboard & Visualizations)
-- GitHub (Project Documentation & Portfolio Showcase)
+- Excel (Dashboard & Visualization)
+- GitHub
 
 ---
 
-## 🧠 Key SQL Concepts Used
-- LEFT JOIN (Data Combination)
-- Aggregation Functions (SUM, COUNT)
-- GROUP BY & ORDER BY
-- CASE WHEN (Customer Segmentation)
-- COALESCE (Handling NULL values)
-- Subqueries
-- Business KPI Calculations
+## 📊 Dashboard Preview
+
+<p align="center">
+  <img src="dashboard.png" width="800"/>
+  <br>
+  <em>Customer Sales Dashboard (Excel)</em>
+</p>
 
 ---
 
-## 📊 Key Business Questions Solved
+## 📈 Key Performance Indicators (KPIs)
 
-1. Who are the top customers by revenue?
-2. Which city generates the highest sales?
-3. Which product category drives maximum revenue?
-4. How are customers segmented by spending behavior?
-5. How to identify loyal, active and inactive customers?
-
----
-
-## 📈 Dashboard
-
-![Customer Sales Dashboard - Overview](DashBoard.png)
+- 💰 **Total Revenue:** ₹ 3,35,100  
+- 🛒 **Total Orders:** 100  
+- 👥 **Total Customers:** 20  
+- 📊 **Average Order Value:** ₹ 3,351  
+- ⭐ **Top Customer Revenue:** ₹ 36,000  
 
 ---
 
-### 💡 Key Insights from Analysis
-📌 Business KPIs
-- Total Revenue: ₹ 3,35,100
-- Total Orders: 100
-- Total Customers: 20
-- Average Order Value: ₹ 3,351
-- Top Customer Revenue: ₹ 36,000
+## 🔍 Key Insights
+
+### 📍 Revenue Insights
+- SOUTH is the highest revenue city (~31.78% — ₹1,06,500)
+- Home category dominates with ₹2,11,800 (63% of revenue)
+- East city lowest at ₹55,600 → growth opportunity
+
+### 👥 Customer Insights
+- 60% High Spenders → strong premium customer base
+- 85% Loyal customers → focus on new customer acquisition
+- Top 5 customers contribute ₹1,29,100 of total revenue
+
+### 🛍️ Product Insights
+- Home category leads with ₹2,11,800 revenue
+- Electronics second at ₹53,500
+- Clothing lowest at ₹23,000 → upsell opportunity
+  
+---
+
+## 🧠 SQL Analysis Highlights
+
+This project includes:
+
+- Customer Segmentation (CASE WHEN)
+- Revenue Analysis (SUM, GROUP BY)
+- Frequency Analysis (COUNT)
+- City-wise & Product-wise Insights
+- Business-driven SQL queries
 
 ---
 
-### 📌 Revenue Insights
-- SOUTH is the highest revenue-generating city (~31.78% contribution)
-- Revenue is heavily concentrated in the Home product category
-- Top 5 customers contribute a significant portion of total revenue
-- 60% of customers belong to the High Spender segment, indicating strong revenue concentration among premium buyers, retention and loyalty strategies should         prioritize this segment
-- High Value & Loyal customers represent the most strategic segment for retention and relationship management
+## 📂 Project Structure
+SQL-PROJECTS/
+├── DashBoard.png                      
+├── ecommerce_customer_analysis.sql    
+└── README.md                         
 
 ---
 
-## 📌 Final Business Summary
-- Revenue is strongly driven by high-spending customers
-- Customer retention strategies are critical for sustaining growth.
-- Sales performance varies significantly across cities, indicating uneven market penetration
-- Business should focus on:
-  - Retaining high-value customers
-  - Strengthening low-performing regions
-  - Increasing repeat purchases and customer lifetime value
+## 🚀 Business Recommendations
+
+- Focus on retaining high-value customers
+- Improve performance in low-revenue cities
+- Increase repeat purchases through engagement strategies
+- Use top products for marketing and bundling
+
 ---
 
-## 🚀 Future Improvements
+## 🔮 Future Improvements
 
-* Add Power BI dashboard for interactive visualization
-* Perform cohort analysis
-* Automate reporting with scheduled queries
+- Build interactive dashboard in Power BI
+- Add cohort and retention analysis
+- Automate reporting pipeline
+
 ---
