@@ -76,6 +76,7 @@ This project includes:
 
 ## 📂 Project Structure
 SQL-PROJECTS/
+
 ├── DashBoard.png                      
 ├── ecommerce_customer_analysis.sql    
 └── README.md                         
